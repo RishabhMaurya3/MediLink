@@ -20,3 +20,13 @@ const doctorSchema = new mongoose.Schema({
 const doctorModel = mongoose.models.doctor || mongoose.model('doctor', doctorSchema)
 
 export default doctorModel
+
+
+/*
+const userSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+}, {
+  timestamps: true
+});
+*/

@@ -1,11 +1,16 @@
 import jwt from "jsonwebtoken"
 
 //admin authentication middleware
-
+// const a = {
+//     name:'rahul',
+//     age:'24',
+// }
+// const {name,age}=a;
+// a.name,a.age;
 const authAdmin = async (req, res, next) => {
 
     try {
-        const {atoken} = req.headers
+        const {atoken} = req.headers;
         if(!atoken){
             return res.json({success: false, message:"Not Authorised Login Again"})
         }
