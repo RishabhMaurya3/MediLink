@@ -22,7 +22,7 @@ const Contact = () => {
             Tel: <span className='text-blue-500'>(415) 555-0132</span> <br />
             Email: abc@example.com
           </p>
-          <p className='font-semibold text-lg text-gray-600'>Careers at PRESCRIPTO</p>
+          <p className='font-semibold text-lg text-gray-600'>Careers at MediLink</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all cursor-pointer'>
             Explore Jobs

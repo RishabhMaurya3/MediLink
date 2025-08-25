@@ -1,0 +1,21 @@
+<!--
+  This SVG code creates a simple, modern logo of a blue medical cross.
+  This version contains only the logo graphic, without the text.
+  As a vector graphic, it will scale perfectly to any size without losing quality.
+-->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- A group to hold the two rectangles that form the cross -->
+  <g>
+    <!--
+      The horizontal rectangle of the cross.
+      The rx and ry attributes create rounded corners.
+    -->
+    <rect x="0" y="20" width="60" height="20" fill="#007bff" rx="5" ry="5" />
+
+    <!--
+      The vertical rectangle of the cross.
+    -->
+    <rect x="20" y="0" width="20" height="60" fill="#007bff" rx="5" ry="5" />
+  </g>
+</svg>
