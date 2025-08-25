@@ -34,15 +34,15 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 
 ```medilink/
 │
-├── admin/ # Admin dashboard (React + Vite)
+├── admin/ # Admin dashboard
 │ ├── public/
 │ │ └── index.html
 │ ├── src/
-│ │ ├── assets/ # Static assets (icons, images, etc.)
-│ │ ├── components/ # Reusable components for Admin
+│ │ ├── assets/
+│ │ ├── components/ 
 │ │ │ ├── Navbar.jsx
 │ │ │ └── Sidebar.jsx
-│ │ ├── context/ # React Context API
+│ │ ├── context/ 
 │ │ │ ├── AdminContext.jsx
 │ │ │ ├── AppContext.jsx
 │ │ │ └── DoctorContext.jsx
@@ -58,17 +58,17 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 │ │ │ │ └── DoctorProfile.jsx
 │ │ │ └── Login.jsx # Admin/Doctor login page
 │ │ ├── App.jsx # App root component
-│ │ ├── index.css # Global styles
+│ │ ├── index.css 
 │ │ └── main.jsx # React entry point
 │ ├── .env
 │ ├── package.json
 │ └── vite.config.js
 │
-├── backend/ # Node.js + Express backend
-│ ├── config/ # Configuration files
+├── backend/ 
+│ ├── config/ 
 │ │ ├── cloudinary.js
 │ │ └── mongodb.js
-│ ├── controllers/ # Controllers for APIs
+│ ├── controllers/
 │ │ ├── adminController.js
 │ │ ├── doctorController.js
 │ │ └── userController.js
@@ -77,24 +77,24 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 │ │ ├── authDoctor.js
 │ │ ├── authUser.js
 │ │ └── multer.js
-│ ├── models/ # Mongoose models
+│ ├── models/ 
 │ │ ├── appointmentModel.js
 │ │ ├── doctorModel.js
 │ │ └── userModel.js
-│ ├── routes/ # Express routes
+│ ├── routes/ 
 │ │ ├── adminRoute.js
 │ │ ├── doctorRoute.js
 │ │ └── userRoute.js
-│ ├── uploads/ # Uploaded files (images, documents, etc.)
+│ ├── uploads/ # Uploaded files
 │ ├── server.js # Main server entry point
 │ ├── .env
 │ └── package.json
 │
-├── frontend/ # Client-side (React + Vite + Tailwind)
+├── frontend/
 │ ├── public/
 │ │ └── index.html
 │ ├── src/
-│ │ ├── assets/ # Static assets
+│ │ ├── assets/ 
 │ │ │ └── dp.svg
 │ │ ├── components/ # UI Components
 │ │ │ ├── Banner.jsx
@@ -104,10 +104,10 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 │ │ │ ├── RelatedDoctors.jsx
 │ │ │ ├── SpecialityMenu.jsx
 │ │ │ ├── TopDoctors.jsx
-│ │ │ └── ... (other UI components)
-│ │ ├── context/ # Global Context
+│ │ │
+│ │ ├── context/ 
 │ │ │ └── AppContext.js
-│ │ ├── pages/ # Application pages
+│ │ ├── pages/ 
 │ │ │ ├── About.jsx
 │ │ │ ├── Appointment.jsx
 │ │ │ ├── Contact.jsx
@@ -116,8 +116,8 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 │ │ │ ├── Login.jsx
 │ │ │ ├── MyAppointments.jsx
 │ │ │ └── MyProfile.jsx
-│ │ ├── App.jsx # App root
-│ │ ├── index.css # Global styles
+│ │ ├── App.jsx
+│ │ ├── index.css
 │ │ └── main.jsx # React entry point
 │ ├── .env
 │ ├── package.json
@@ -125,6 +125,6 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 │ └── vite.config.js
 │
 ├── .gitignore
-├── package.json # Root package.json
+├── package.json 
 └── README.md
 
