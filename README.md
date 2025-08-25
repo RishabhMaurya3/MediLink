@@ -1,4 +1,4 @@
-# Prescripto 🩺
+# MediLink 🩺
 
 Prescripto is a full-stack medical appointment booking platform designed to streamline interactions between patients, doctors, and administrators.
 Built with the MERN stack, it enables online consultations, doctor discovery, real-time appointment tracking, and admin-level controls.
@@ -6,9 +6,9 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 ## 🚀 Features
 
 ### 👤 Patient Portal
-- Browse doctors by specialization, location, or fee
+- Browse doctors by specialization and fee
 - Book appointments with preferred doctors
-- Secure online payments via Stripe
+- Secure online payments via Razorpay
 - Track appointment status in real-time
 
 ### 🩺 Doctor Dashboard
