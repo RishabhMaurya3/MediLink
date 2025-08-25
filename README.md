@@ -1,6 +1,6 @@
 # MediLink 🩺
 
-Prescripto is a full-stack medical appointment booking platform designed to streamline interactions between patients, doctors, and administrators.
+MediLink is a full-stack medical appointment booking platform designed to streamline interactions between patients, doctors, and administrators.
 Built with the MERN stack, it enables online consultations, doctor discovery, real-time appointment tracking, and admin-level controls.
 
 ## 🚀 Features
