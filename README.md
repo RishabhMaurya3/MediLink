@@ -126,7 +126,6 @@ medilink/
 │ ├── tailwind.config.js
 │ └── vite.config.js
 │
-├── .gitignore
 ├── package.json 
 └── README.md
 
