@@ -29,10 +29,12 @@ Built with the MERN stack, it enables online consultations, doctor discovery, re
 - **Authentication:** jwt
 - **Payments:** Razorpay
 - **Cloud Storage:** Cloudinary
+  
 
 ## 📁 Project Structure
 
-```medilink/
+```
+medilink/
 │
 ├── admin/ # Admin dashboard
 │ ├── public/
