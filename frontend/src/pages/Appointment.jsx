@@ -192,8 +192,9 @@ const bookAppointment = async () => {
             </>
           ) : (
             <>
-              <p className='font-semibold text-sm'>Today</p>
               <p className='text-xs font-semibold text-red-700'>No Slots</p>
+              <p className='font-semibold text-sm'>Today</p>
+              
             </>
           )}
         </div>
