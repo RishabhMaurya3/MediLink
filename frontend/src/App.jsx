@@ -23,15 +23,15 @@ const App = () => {
 
       <Navbar />
       <Routes>
-        <Route path = '/'element = {<Home />} />
-        <Route path = '/doctors'element = {<Doctor />} />
-        <Route path = '/doctors/:speciality'element = {<Doctor />} />
-        <Route path = '/login'element = {<Login />} />
-        <Route path = '/about'element = {<About />} />
-        <Route path = '/contact'element = {<Contact />} />
-        <Route path = '/my-profile'element = {<MyProfile />} />
-        <Route path = '/my-appointments'element = {<MyAppointments />} />
-        <Route path = '/appointment/:docId'element = {<Appointment />} />
+        <Route path = '/' element = {<Home />} />
+        <Route path = '/doctors' element = {<Doctor />} />
+        <Route path = '/doctors/:speciality' element = {<Doctor />} />
+        <Route path = '/login' element = {<Login />} />
+        <Route path = '/about' element = {<About />} />
+        <Route path = '/contact' element = {<Contact />} />
+        <Route path = '/my-profile' element = {<MyProfile />} />
+        <Route path = '/my-appointments' element = {<MyAppointments />} />
+        <Route path = '/appointment/:docId' element = {<Appointment />} />
       </Routes>
       {/* for visibiity in all the pages */}
       <Footer /> 
