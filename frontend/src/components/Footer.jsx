@@ -7,8 +7,8 @@ const Footer = () => {
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-small'>
             {/* ------ left section----- */}
             <div>
-                <img src = {assets.aa} className='mb-5 w-55'/>
-                <p className='w-full md:w-2/3 text-gray-600 leading-6'>MediLink connects patients with trusted healthcare professionals through secure and easy appointment booking. Our goal is to make healthcare access faster, simpler, and more reliable — all in just a few clicks.</p>
+                <img src = {assets.logo} className='mb-5 w-40'/>
+                <p className='w-full md:w-2/3 text-gray-600 leading-6'>Medilink connects patients with trusted healthcare professionals through secure and easy appointment booking. Our goal is to make healthcare access faster, simpler, and more reliable — all in just a few clicks.</p>
             </div>
 
             {/* ------ center section----- */}
