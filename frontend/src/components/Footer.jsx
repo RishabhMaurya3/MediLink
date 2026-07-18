@@ -8,7 +8,7 @@ const Footer = () => {
             {/* ------ left section----- */}
             <div>
                 <img src = {assets.logo} className='mb-5 w-40'/>
-                <p className='w-full md:w-2/3 text-gray-600 leading-6'>Prescripto connects patients with trusted healthcare professionals through secure and easy appointment booking. Our goal is to make healthcare access faster, simpler, and more reliable — all in just a few clicks.</p>
+                <p className='w-full md:w-2/3 text-gray-600 leading-6'>Medilink connects patients with trusted healthcare professionals through secure and easy appointment booking. Our goal is to make healthcare access faster, simpler, and more reliable — all in just a few clicks.</p>
             </div>
 
             {/* ------ center section----- */}
